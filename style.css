@@ -32,6 +32,11 @@ body {
     color: var(--lawyer-green) !important; 
 }
 
+.navbar-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
 .navbar-nav .nav-link {
     font-size: 1.15rem;
     font-weight: 600;
@@ -70,7 +75,16 @@ body {
 #hero {
     height: 100vh;
     background-color: #084c41;
+ 
 }
+
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
 
 /* ABOUT */
 .about-box {
@@ -118,6 +132,7 @@ body {
 .btn-primary:hover {
     background: var(--lawyer-green);
     border: 2px solid var(--primary-color);
+    
 }
 
 
@@ -204,5 +219,3 @@ body {
     color: var(--primary-color);
     text-decoration: underline;
 }
-
-
