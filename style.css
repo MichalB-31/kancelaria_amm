@@ -69,8 +69,7 @@ body {
 /* HERO */
 #hero {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-    url('assets/images/hero-bg.jpg') center/cover no-repeat;
+    background-color: #084c41;
 }
 
 /* ABOUT */
@@ -204,3 +203,4 @@ body {
     color: var(--primary-color);
     text-decoration: underline;
 }
+
