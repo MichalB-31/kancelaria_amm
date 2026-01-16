@@ -210,16 +210,32 @@ body {
     outline: none;
 }
 
-
 #kontakt a {
-    color: var(--lawyer-green); 
+    position: relative;
+    color: var(--lawyer-green);
     text-decoration: none;
     font-weight: 500;
 }
 
+#kontakt a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
 #kontakt a:hover {
     color: var(--primary-color);
-    text-decoration: underline;
 }
+
+#kontakt a:hover::after {
+    width: 100%;
+}
+
+
 
 
